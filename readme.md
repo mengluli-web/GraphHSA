@@ -8,7 +8,7 @@ Menglu Li ([mengluli@foxmail.com](mailto:mengluli@foxmail.com)) , Yongkang Wang 
 
 **Tuturial**
 
-To get the experiment results by running the scripts (scenario ):
+To get the experiment results by running the scripts (scenario is warm start or cold start for herb/symptom/pair):
 
 ```
 python main_cv.py --dataset MDA --save_dir results_cv_{scenario}/ --data_dir ../data/{scenario}/   ###5-fold cross-validation
@@ -21,7 +21,7 @@ python main_indep.py --dataset MDA --save_dir results_indep_{scenario}/ --data_d
 Users can use their **own data** to train prediction models.
 
 ```
-python save_train_val_test_data.py   ###splitting the data by different strategies
+python save_train_val_test_data.py   ###splitting the input data by different strategies
 ```
 
 **Requirements**
