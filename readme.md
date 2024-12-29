@@ -1,21 +1,17 @@
-### SubKNet
+### GraphHSA
 
 Code and datasets for "Revealing Herb-Symptom Associations and Mechanisms of Action in Protein Networks Using Subgraph Matching Learning"
-
-**Developers**
-
-Menglu Li ([mengluli@foxmail.com](mailto:mengluli@foxmail.com)) , Yongkang Wang (wyky481@webmail.hzau.edu.cn), Yujing Ni, and Wen Zhang ([zhangwen@mail.hzau.edu.cn](mailto:zhangwen@mail.hzau.edu.cn)) from College of Informatics, Huazhong Agricultural University.
 
 **Tuturial**
 
 To get the experiment results by running the scripts (scenario is warm start or cold start for herb/symptom/pair):
 
 ```
-python main_cv.py --dataset MDA --save_dir results_cv_{scenario}/ --data_dir ../data/{scenario}/   ###5-fold cross-validation
+python main_cv.py --save_dir results_cv_{scenario}/ --data_dir ../data/{scenario}/   ###5-fold cross-validation
 ```
 
 ```
-python main_indep.py --dataset MDA --save_dir results_indep_{scenario}/ --data_dir ../data/{scenario}/   ###independent test
+python main_indep.py --save_dir results_indep_{scenario}/ --data_dir ../data/{scenario}/   ###independent test
 ```
 
 Users can use their **own data** to train prediction models.
@@ -37,4 +33,4 @@ python save_train_val_test_data.py   ###splitting the input data by different st
 
 **Contact**
 
-Please feel free to contact us if you need any help.
+Please feel free to contact us if you need any help ([mengluli@foxmail.com](mailto:mengluli@foxmail.com) or [zhangwen@mail.hzau.edu.cn](mailto:zhangwen@mail.hzau.edu.cn)).
