@@ -7,6 +7,7 @@ from torch import optim
 import pandas as pd
 import pickle
 from sklearn import metrics
+import os
 
 def obtain_metrics(y_pred, y_true):
     acc=metrics.accuracy_score(y_pred=y_pred.round(), y_true=y_true)
