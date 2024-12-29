@@ -33,4 +33,4 @@ python save_train_val_test_data.py   ###splitting the input data by different st
 
 **Contact**
 
-Please feel free to contact us if you need any help ([mengluli@foxmail.com](mailto:mengluli@foxmail.com) or [zhangwen@mail.hzau.edu.cn](mailto:zhangwen@mail.hzau.edu.cn)).
+Please feel free to contact us if you need any help ([mengluli@webmail.hzau.edu.cn](mailto:mengluli@webmail.hzau.edu.cn) or [zhangwen@mail.hzau.edu.cn](mailto:zhangwen@mail.hzau.edu.cn)).
