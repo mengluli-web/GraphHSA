@@ -42,7 +42,8 @@ def _get_feed_dict(data,feature_index,drug_neighbor_set,symptom_neighbor_set,edg
     return symptoms.to(device), drugs.to(device),sym_feat, drug_feat, symptoms_neighbors, drugs_neighbors,torch.LongTensor(edge_index.T).to(device)
 
 if __name__ == '__main__':
-    
+    if not os.path.exists(args.save_dir+'/'):
+        os.makedirs(args.save_dir+'/')
     with open('../data/node_num_dict.pickle', "rb") as f:  
         node_num_dict = pickle.load(f)
     with open('../data/feature_index.pickle', "rb") as f:  
