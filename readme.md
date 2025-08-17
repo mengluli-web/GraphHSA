@@ -7,7 +7,7 @@ Code and datasets for "Revealing Herb-Symptom Associations and Mechanisms of Act
 To get the experiment results by running the scripts (scenario is warm start or cold start for herb/symptom/pair):
 
 ```
-python main_cv.py --save_dir results_cv_{scenario}/ --data_dir ../data/{scenario}/   ###5-fold cross-validation
+python main_cv.py --save_dir results_cv_{scenario}/ --data_dir ../data/{scenario}/   ###5-fold cross-validation, .pickle file is obtained from save_train_val_test_data.py
 ```
 
 ```
